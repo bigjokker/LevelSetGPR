@@ -5,7 +5,7 @@
 
 ## Overview
 
-LevelSetGPR is a Python toolbox for estimating continuous functions \( f: \mathbb{R}^n \to \mathbb{R} \) from sparse, noisy points on a few level sets (e.g., 2–5 levels with 3–4 points each). It uses Gaussian Process Regression (GPR) with custom constraints to incorporate level-set structure, providing probabilistic estimates and uncertainty quantification. Key features include:
+LevelSetGPR is a Python toolbox for estimating continuous functions $f: \mathbb{R}^n \to \mathbb{R}$ from sparse, noisy points on a few level sets (e.g., 2–5 levels with 3–4 points each). It uses Gaussian Process Regression (GPR) with custom constraints to incorporate level-set structure, providing probabilistic estimates and uncertainty quantification. Key features include:
 
 - Efficient use of level-set geometry via equality and derivative constraints.
 - High-dimensional handling (\( n \leq 100 \)) with optional PCA projection.
